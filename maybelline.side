@@ -1,0 +1,71 @@
+{
+  "id": "a97f113d-123e-4ec1-b1bd-82eb07394044",
+  "version": "2.0",
+  "name": "maybelline",
+  "url": "https://www.maybelline.co.uk",
+  "tests": [{
+    "id": "37112434-1e75-4fdb-bec8-8e558f6713d3",
+    "name": "homepage",
+    "commands": [{
+      "id": "7b59c511-8bdb-44c8-90c0-f032cd2c2bde",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e5abd07-5d32-4f60-95d3-eabf7fc5d337",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1323x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd267a30-df79-4b45-9142-3d3185dbc697",
+      "comment": "",
+      "command": "click",
+      "target": "css=.reversed > .large-feature__hero > .lazy > .lazy",
+      "targets": [
+        ["css=.reversed > .large-feature__hero > .lazy > .lazy", "css:finder"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39937dea-0713-4714-83f3-cd678d6c29dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#main-header-links .header-link:nth-child(3) .title",
+      "targets": [
+        ["css=#main-header-links .header-link:nth-child(3) .title", "css:finder"],
+        ["xpath=//div[@id='main-header-links']/div/div[3]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b3cc84a-5c4b-4a2e-b9e6-52ee95812fc1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Lipstick",
+      "targets": [
+        ["linkText=Lipstick", "linkText"],
+        ["css=#main-header-links .header-link:nth-child(3) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Lipstick')]", "xpath:link"],
+        ["xpath=//div[@id='main-header-links']/div/div[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/lips/lipstick')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Lipstick')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2fea71b8-23f7-4a90-abe4-ebf2ba6b2b55",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["37112434-1e75-4fdb-bec8-8e558f6713d3"]
+  }],
+  "urls": ["https://www.maybelline.co.uk/"],
+  "plugins": []
+}

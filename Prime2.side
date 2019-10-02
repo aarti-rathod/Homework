@@ -1,0 +1,74 @@
+{
+  "id": "f78ea7e5-2b79-4236-a52d-b8999bb5599b",
+  "version": "2.0",
+  "name": "Prime2",
+  "url": "http://www.bluezenzer.com",
+  "tests": [{
+    "id": "6fb9c8eb-7861-4bdb-b7b3-a31710534a9d",
+    "name": "BlueZenzer",
+    "commands": [{
+      "id": "98186327-d69b-413a-b6ed-5f570d07a847",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "883fbbd3-0e19-4b0c-a56b-e6c600d064ab",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1323x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9bbe8ad-c20d-4eb6-8d32-619671633c73",
+      "comment": "",
+      "command": "click",
+      "target": "id=dnn_dnnNAV_ctldnnNAVt59",
+      "targets": [
+        ["id=dnn_dnnNAV_ctldnnNAVt59", "id"],
+        ["css=#dnn_dnnNAV_ctldnnNAVt59", "css:finder"],
+        ["xpath=//span[@id='dnn_dnnNAV_ctldnnNAVt59']", "xpath:attributes"],
+        ["xpath=//div[@id='dnn_dnnNAV_ctldnnNAVctr59']/span[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0687005f-79ac-4f91-9748-76f97801a14d",
+      "comment": "",
+      "command": "click",
+      "target": "css=span > div a",
+      "targets": [
+        ["css=span > div a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Click here')])[3]", "xpath:link"],
+        ["xpath=//div[@id='dnn_ctr382_HtmlModule_lblContent']/span[3]/div/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Portals/0/docs/BZ_Dessert%20MENU_Print-min.pdf')]", "xpath:href"],
+        ["xpath=//span[3]/div/div/p/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6920c89c-e1fb-455c-9ace-9b6ce72c11d9",
+      "comment": "",
+      "command": "click",
+      "target": "id=dnn_dnnNAV_ctldnnNAVt62",
+      "targets": [
+        ["id=dnn_dnnNAV_ctldnnNAVt62", "id"],
+        ["css=#dnn_dnnNAV_ctldnnNAVt62", "css:finder"],
+        ["xpath=//span[@id='dnn_dnnNAV_ctldnnNAVt62']", "xpath:attributes"],
+        ["xpath=//div[@id='dnn_dnnNAV_ctldnnNAVctr62']/span[2]", "xpath:idRelative"],
+        ["xpath=//div[5]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c90ad66d-2d39-46fc-bc2b-20c6091d0e51",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6fb9c8eb-7861-4bdb-b7b3-a31710534a9d"]
+  }],
+  "urls": ["http://www.bluezenzer.com/"],
+  "plugins": []
+}
